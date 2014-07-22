@@ -4,13 +4,42 @@
 	<title>Login to your Telegram account</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/foundation.css">
 	<link rel="stylesheet" href="assets/css/main.css">
-	<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
-<body>
-	<div class="login-box">
-		<div class="left"></div>
-		<div class="right"><div>
+<body class="login">
+	<div class="row container">
+		
+		<div class="row">		
+			<div class="large-6 column box left">
+				<img class="medium-push-3" src="assets/images/telegram-logo.png" alt="Telegram logo" title="Telegram: know what's happening!">
+			</div>
+			<div class="large-5 column box">
+				<div class="row">
+					<img class="column right postmark" src="assets/images/postmark.png" alt="Telegram postmark">
+				</div>
+				<h4 class="subheading">Get Going ...</h2>
+				<form>
+					<div class="row">
+						<div class="column">
+							<input type="text" placeholder="Enter your username ..." />
+						</div>
+					</div>
+					<div class="row">
+						<div class="column">
+							<input type="password" placeholder="Enter your password ..." />
+						</div>
+					</div>
+					<div class="row button-row">
+						<div class="column">
+							<button>Log In</button>
+							<span><a href="#">Recover password</a> or <a href="#">Sign up</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
