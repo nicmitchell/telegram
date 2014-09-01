@@ -1,3 +1,9 @@
-<h2 id='title'>Welcome to Ember.js</h2>
-
+<h2 id='title'>Welcome to Telegram</h2>
+This is the index/registration page
 {{outlet}}
+<h3>Navigation</h3>
+<h4>Public</h4>
+{{#link-to 'register'}}Register{{/link-to}} | {{#link-to 'login'}}Login{{/link-to}} | {{#link-to 'password-reset'}}Password Reset{{/link-to}} | {{#link-to 'password-sent'}}Password Sent{{/link-to}}<br />
+{{#link-to 'user'}}User{{/link-to}} | {{#link-to 'user.following'}}User: Following{{/link-to}} | {{#link-to 'user.followers'}}User: Followers{{/link-to}}<br />
+<h4>Private</h4>
+{{#link-to 'dashboard'}}Dashboard{{/link-to}}
