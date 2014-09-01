@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Telegram
 
 This README outlines the details of collaborating on this Ember application.
@@ -25,6 +25,4 @@ This README outlines the details of collaborating on this Ember application.
 
 For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
 =======
-telegram
-========
->>>>>>> 2e14178fa42324e808b8d361e01b8e5c18c52dd8
+
