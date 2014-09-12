@@ -1,0 +1,23 @@
+<div class="profile">
+  <header><img class="logo" src='assets/images/telegram-logo.png'></header>
+  <div class="large-6 column large-centered container">
+    <div class="row">    
+      <section class="text-center">
+        <figure class="large-3 column large-centered">
+          <img class="column large-centered" src="assets/images/avatars/josh.jpg">
+        </figure>
+        <h4>John Homme</h4>
+        <h5>@babyduck</h5>
+        <button>Follow</button>
+      </section>
+      <hr />
+      <section class="text-center profile-nav">
+        <ul class="inline-list no-bullet"><li>{{#link-to 'user'}}Posts{{/link-to}}</li><li>{{#link-to 'user.following'}}Following{{/link-to}}</li><li>{{#link-to 'user.followers'}}Followers{{/link-to}}</li></ul>
+      </section>
+      <hr />
+      <section class="activity">
+	{{outlet}}
+      </div>
+    </section>
+  </div>
+</div>

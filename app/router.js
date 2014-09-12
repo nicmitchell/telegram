@@ -9,7 +9,7 @@ Router.map(function() {
   this.route('password-reset');
   this.route('password-sent');
   this.route('dashboard');
-  this.resource('user', { path: '/:user_id' }, function () {
+  this.resource('user', { path: '/user' }, function () {
     this.route('following');
     this.route('followers');
   });

@@ -12,6 +12,28 @@
 .postmark { position: relative; max-height: 66px; max-width: 193px; margin-bottom: 3rem; }
 
 
+/* Profile */
+.profile img.logo { margin: 0 auto; display: block; max-width: 140px; }
+.profile .container { margin-top: 1.4rem;;}
+.profile header { width: 100%; box-shadow: 0 5px 5px rgba(0,0,0,0.1); padding: .5rem 0 .5rem 0; }
+.profile .profile-nav li { font-size: 140%; margin: 0 1rem 0 1rem; }
+.profile h4.friend { display: inline; }
+.profile .activity div.avatar { float: left; margin-top: 0; margin-bottom: 1.2rem; }
+.profile .activity h5 { margin-top: 0; margin-bottom: 1rem; }
+.profile .activity .follow { float: right; }
+.profile .activity p { font-size: 0.85rem; }
+.profile .activity p.time { color: #999; }
+.profile button { margin-top: 1.4rem;}
+.inline-list li { display: inline; }
+button { font-size: 0.8rem !important; border: 1px solid #0084B2; color: #0084B2; background: transparent; padding: 0.5rem; min-width: 60px; }
+
+/* Dashboard */
+.dashboard .characters { margin-top: 1.4rem; }
+.dashboard img.home { max-width: 2.5rem; float: left; position: absolute; left: 1rem; }
+.dashboard span.home { position: absolute; top: 1.4rem; left: 3.75rem; color: #999; }
+.dashboard .logged-in { position: absolute; top: .75rem; right: 1rem; color: #999; }
+.dashboard .logged-in .avatar { max-width: 2.5rem; margin-right: 1rem; }
+
 /* Tablet-ish */
 @media only screen and (min-width: 40.063em) and (max-width: 64em){}
 .login { padding: 6rem 3rem 6rem 3rem; }
