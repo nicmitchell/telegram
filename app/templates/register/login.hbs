@@ -1,0 +1,21 @@
+<h4 class="subheading">Get Going ...</h4>
+<form>
+  <div class="row">
+    <div class="column">
+        <input type="text" placeholder="Enter your username ..." />
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+        <input type="password" placeholder="Enter your password ..." />
+    </div>
+  </div>
+  <div class="row button-row">
+    <div class="large-3 column">
+      {{#link-to 'dashboard'}}<button>Log In</button>{{/link-to}}
+    </div>
+    <div class="large-9 column text-right medium-only-text-left small-only-text-left end">
+      <span class="links">{{#link-to 'register.password-reset'}}Recover password{{/link-to}} or {{#link-to 'register'}}Sign up{{/link-to}}</span>
+    </div>
+  </div>
+</form>
