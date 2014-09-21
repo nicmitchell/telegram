@@ -23,6 +23,6 @@ Twitter-like messaging app built using Ember CLI
 
 * `ember build`
 
-For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
+## For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
 =======
 
