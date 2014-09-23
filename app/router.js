@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('dashboard');
-  this.resource('user', { path: '/user' }, function () {
+  this.resource('user', { path: '/:user_id' }, function () {
     this.route('following');
     this.route('followers');
     this.route('posts');
