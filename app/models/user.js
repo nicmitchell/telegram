@@ -1,12 +1,17 @@
 import DS from 'ember-data';
 
 var User = DS.Model.extend({
-  user_id: DS.attr('string'),
+  //user_id: DS.attr('string'),
   name: DS.attr('string'),
   email: DS.attr('string'),
   password: DS.attr('string'),
-  following: DS.hasMany('user', {async: true}),
-  followers: DS.hasMany('user', {async: true}),
+  following: DS.attr('user', {async: true}),
+  // function() {
+  //   return this.store.find("user", {followers: currentUser.get("id")});
+  // },
+  followers: function() {
+    return this.store.find("user", {followers: currentUser.get("id")});
+  },
   posts: DS.hasMany('post', {async: true}),
   imagePath: function() {
     return "/assets/images/avatars/"+this.get("id")+".jpg";

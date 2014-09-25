@@ -9,9 +9,9 @@ Router.map(function() {
   this.resource('user', { path: '/:user_id' }, function () {
     this.route('following');
     this.route('followers');
-    this.route('posts');
+    this.route('posts', { path: '/'});
   });
-  this.resource('register', { path: '/' }, function () {
+  this.route('register', { path: '/' }, function () {
     this.route('login');
     this.route('password-reset');
     this.route('password-sent');
