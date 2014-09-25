@@ -5,7 +5,7 @@ var User = DS.Model.extend({
   name: DS.attr('string'),
   email: DS.attr('string'),
   password: DS.attr('string'),
-  following: DS.attr('user', {async: true}),
+  // following: //DS.attr('user', {async: true}),
   // function() {
   //   return this.store.find("user", {followers: currentUser.get("id")});
   // },

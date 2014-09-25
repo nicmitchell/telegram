@@ -1,8 +1,8 @@
-{{#each user in following}}
+{{#each user in controller}}
 <div class="row">
   <section class="column">
-    <div class="large-2 column avatar"><img {{bind-attr src='user.imagePath'}} ></div>
-    <h5 class="large-8 column friend">{{user}}</h5>
+    
+    <h5 class="large-8 column friend">{{user.name}}</h5>
     <div class="large-2 column follow"><button>Follow</button></div>
     <hr />
   </section>
