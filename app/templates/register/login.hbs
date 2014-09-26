@@ -2,17 +2,17 @@
 <form {{action 'authenticate' on=submit}}>
   <div class="row">
     <div class="column">
-        {{input value=username placeholder="Enter your username ..."}}
+        {{input type="text" value=username placeholder="Enter your username ..." required="required"}}
     </div>
   </div>
   <div class="row">
     <div class="column">
-        {{input type="password" placeholder="Enter your password ..."}}
+        {{input type="password" value=password placeholder="Enter your password ..." required="required"}}
     </div>
   </div>
   <div class="row button-row">
     <div class="large-3 column">
-      <button type="submit">Log In</button>
+      <button {{action authenticate}}>Log In</button>
     </div>
     <div class="large-9 column text-right medium-only-text-left small-only-text-left end">
       <span class="links">{{#link-to 'register.password-reset'}}Recover password{{/link-to}} or {{#link-to 'register'}}Sign up{{/link-to}}</span>
