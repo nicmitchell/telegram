@@ -1,8 +1,7 @@
 <div class="profile dashboard">
   <header>
   	{{#link-to 'dashboard'}}<img class='home' src='assets/images/fi-home.svg'><span class="home">Home</span>{{/link-to}}
-  	<div class="logged-in"><img class="avatar" src='assets/images/avatars/josh.jpg'>Josh Homme</div>
-  	<img class="logo" src='assets/images/telegram-logo.png'>
+  	<div class="logged-in"><img class="avatar" {{bind-attr src='imagePath'}}>Josh Homme{{user.name}}</div>
   </header>
   <div class="large-6 column large-centered container">
     <div class="row">    
