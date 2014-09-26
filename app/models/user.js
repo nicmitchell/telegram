@@ -26,57 +26,57 @@ User.reopenClass({
     name: "Josh Homme",
     email: "josh@telegram.com",
     password: "queenbee",
-    following: ['davegrohl','mikeyshoes','deanfertita'],
-    followers: ['johntheodore','alainjohannes','troy'],
+    following: ['dave','mikeyshoes','dean'],
+    followers: ['john','alain','troy'],
     posts: [1,2,3,4,5]
   }, {
-    id: "davegrohl", // username
+    id: "dave", // username
     name: "Dave Grohl",
     email: "dave@telegram.com",
     password: "queenbee",
-    following: ['deanfertita','mikeyshoes','johntheodore'],
-    followers: ['alainjohannes','troy','babyduck'],
+    following: ['dean','mikeyshoes','john'],
+    followers: ['alain','troy','babyduck'],
     posts: [6,7,8,9,10]
   }, {
-    id: "deanfertita", // username
+    id: "dean", // username
     name: "Dean Fertita",
     email: "dean@telegram.com",
     password: "queenbee",
-    following: ['mikeyshoes','johntheodore','alainjohannes'],
-    followers: ['babyduck','davegrohl','mikeyshoes'],
-    posts: [1,2,3,4,5]
+    following: ['mikeyshoes','john','alain'],
+    followers: ['babyduck','dave','mikeyshoes'],
+    posts: [11,12,13,14,15]
   }, {
     id: "mikeyshoes", // username
     name: "Mike Schuman",
     email: "mikey@telegram.com",
     password: "queenbee",
-    following: ['johntheodore','alainjohannes','troy'],
-    followers: ['babyduck','davegrohl','deanfertita'],
-    posts: [1,2,3,4,5]
+    following: ['john','alain','troy'],
+    followers: ['babyduck','dave','dean'],
+    posts: [16,17,18,19,20]
   }, {
-    id: "johntheodore", // username
+    id: "john", // username
     name: "John Theodore",
     email: "john@telegram.com",
     password: "queenbee",
-    following: ['alainjohannes','troy','babyduck'],
-    followers: ['davegrohl','deanfertita','mikeyshoes'],
-    posts: [1,2,3,4,5]
+    following: ['alain','troy','babyduck'],
+    followers: ['dave','dean','mikeyshoes'],
+    posts: [21,22,23,24,25]
   }, {
-    id: "alainjohannes", // username
+    id: "alain", // username
     name: "Alain Johannes",
     email: "alain@telegram.com",
     password: "natasha",
-    following: ['davegrohl','deanfertita','mikeyshoes'],
-    followers: ['johntheodore','troy','babyduck'],
-    posts: [1,2,3,4,5]
+    following: ['dave','dean','mikeyshoes'],
+    followers: ['john','troy','babyduck'],
+    posts: [36,37,38,39,40]
   }, {
     id: "troy", // username
     name: "Troy Van Leeuwen",
     email: "troy@telegram.com",
     password: "queenbee",
-    following: ['babyduck','alainjohannes','johntheodore'],
-    followers: ['mikeyshoes','deanfertita','davegrohl'],
-    posts: [1,2,3,4,5]
+    following: ['babyduck','alain','john'],
+    followers: ['mikeyshoes','dean','dave'],
+    posts: [41,42,43,44,45]
   }]
 });
 

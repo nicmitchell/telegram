@@ -1,11 +1,11 @@
 {{#each post in posts}}
 <div class="row">
   <section class="column">
-    <div class="large-2 column avatar"><img class="column large-centered" {{bind-attr src='imagePath'}}></div>
+    <div class="large-2 column avatar"><img {{bind-attr src='imagePath'}}></div>
     <div class="large-10 right">
       <h5>{{name}}</h5>
       <p>{{post.text}}</p>
-      <p class="time">2 minutes ago</p>
+      <p class="time">{{post.created}}</p>
     </div>            
     <hr />
   </section>

@@ -1,8 +1,8 @@
 {{#each user in controller}}
 <div class="row">
   <section class="column">
-    
-    <h5 class="large-8 column friend">{{user.name}}</h5>
+    <div class="large-2 column avatar">{{#link-to 'user'}}<img {{bind-attr src='user.imagePath'}}>{{/link-to}}</div>
+    <h5 class="large-8 column friend">{{#link-to 'user'}}{{user.name}}{{/link-to}}</h5>
     <div class="large-2 column follow"><button>Follow</button></div>
     <hr />
   </section>
